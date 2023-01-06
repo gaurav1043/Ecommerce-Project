@@ -47,7 +47,7 @@ const Right = styled.div`
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
-  margin-left: 5px;
+  margin-left: 25px;
 `;
 const Navbar = () => {
   return (
@@ -69,8 +69,8 @@ const Navbar = () => {
           <Logo>Gaurav.</Logo>
         </Center>
         <Right>
-          <MenuItem>Register</MenuItem>
-          <MenuItem>Signin</MenuItem>
+          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlinedIcon />
